@@ -1,10 +1,12 @@
 var asset="./asset/img/"
+var assetDice=asset+"dice";
 
 var redLine= new Array(12);
 var yellowLine= new Array(12);
 var greenLine= new Array(12);
 var blueLine=new Array(12);
 var grilles = new  Array(4);
+var diceSet=null;
 
 function initRedLine(){
 
@@ -30,6 +32,26 @@ function initYellowLine(){
 
     //alert(redLine[i].a())
   } 
+}
+
+function initDiceSet()
+{
+  diceSet=new DiceSet();
+}
+
+function roll()
+{
+  console.log("roll")
+  diceSet.throwDices();
+  console.log(diceSet.showDiceSet());
+   for(var k=0;k<diceSet.dicesArrayValue.length;k++){
+     let dice= diceSet.dicesArrayValue[k];
+     let id=dice.color;
+     let value=dice.value;
+    $('#'+"dice_"+id).css("background-image", "url("+assetDice+"/"+id+"_"+value+".png");  
+
+
+   }
 }
 
 function initGreenLine(){
@@ -148,12 +170,11 @@ function checkCase(line,cell)
 
 
 
-initGrille();
-dumpLine(grilles[0]);
+
 
 $(document).ready(function(){
-
- 
+  initGrille();
+  initDiceSet();
   // jQuery methods go here...
   $(".case").click(function(){
      id = event.target.id;
@@ -171,6 +192,10 @@ $(document).ready(function(){
          }
      }
   });
+
+  $("#roll").click(function(){
+    roll();
+ });
 
 }); 
 
