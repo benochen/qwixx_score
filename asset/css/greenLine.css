@@ -1,35 +1,35 @@
 
 
 #g2 { 
-  grid-column: 1;
+  grid-column: 11;
   background-image:url("../img/g2.png") ;
   background-size: 50px;
   grid-row: 3;
 }
 
 #g3 { 
-  grid-column: 2;
+  grid-column: 10;
   background-image:url("../img/g3.png") ;
   background-size: 50px;
   grid-row: 3;
 }
 
 #g4 { 
-  grid-column: 3;
+  grid-column: 9;
   background-image:url("../img/g4.png") ;
   background-size: 50px;
   grid-row: 3;
 }
 
 #g5 { 
-  grid-column: 4;
+  grid-column: 8;
   background-image:url("../img/g5.png") ;
   background-size: 50px;
   grid-row: 3;
 }
 
 #g6 { 
-  grid-column: 5;
+  grid-column: 7;
   background-image:url("../img/g6.png") ;
   background-size: 50px;
   grid-row: 3;
@@ -43,7 +43,7 @@
 }
 
 #g8 { 
-  grid-column: 7;
+  grid-column: 5;
   background-image:url("../img/g8.png") ;
   background-size: 50px;
   grid-row: 3;
@@ -52,7 +52,7 @@
 
 
 #g9 { 
-  grid-column: 8;
+  grid-column: 4;
   background-image:url("../img/g9.png") ;
   background-size: 50px;
   grid-row: 3;
@@ -60,7 +60,7 @@
 
 
 #g10 { 
-  grid-column: 9;
+  grid-column: 3;
   background-image:url("../img/g10.png") ;
   background-size: 50px;
   grid-row: 3;
@@ -68,7 +68,7 @@
 
 
 #g11 { 
-  grid-column: 10;
+  grid-column: 2;
   background-image:url("../img/g11.png") ;
   background-size: 50px;
   grid-row: 3;
@@ -76,7 +76,7 @@
 
 
 #g12 { 
-  grid-column: 11;
+  grid-column: 1;
   background-image:url("../img/g12.png") ;
   background-size: 50px;
   grid-row: 3;
