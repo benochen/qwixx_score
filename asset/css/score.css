@@ -1,0 +1,108 @@
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+    padding: 1em;
+  color: #d9480f;
+}
+
+.wrapper_score  {
+  display: grid;
+  grid-template-columns: 50px 50px  50px 50px 50px 50px 50px 50px 50px 50px  ;
+  grid-template-rows: 44px 50px 50px;
+
+}
+* {box-sizing: border-box;}
+
+.wrapper_score {
+  border-radius: 5px;
+  width: 46%;
+}
+
+.wrapper_score > div {
+  border-radius: 5px;
+  color: #d9480f;
+}
+
+
+
+#score_red { 
+  grid-column: 1;
+  background-image:url("asset/img/score_red.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+
+
+
+#plus_red { 
+  background-image:url("asset/img/plus.png") ;
+  background-size: 50px;
+}
+
+#score_yellow { 
+  grid-column: 3;
+  background-image:url("asset/img/score_yellow.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#plus_yellow { 
+  background-image:url("asset/img/plus.png") ;
+  background-size: 50px;
+}
+
+#score_green { 
+  grid-column: 5;
+  background-image:url("asset/img/score_green.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#plus_green { 
+  background-image:url("asset/img/plus.png") ;
+  background-size: 50px;
+}
+
+#score_blue { 
+  grid-column: 7;
+  background-image:url("asset/img/score_blue.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#less_blue { 
+  background-image:url("asset/img/less.png") ;
+  background-size: 50px;
+}
+
+#verful { 
+  grid-column: 9;
+  background-image:url("asset/img/verful.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+#equal { 
+ 
+  background-image:url("asset/img/equal.png") ;
+  background-size: 50px;
+  
+}
+
+#score_total { 
+  grid-column: 11;
+  background-image:url("asset/img/score_total.png") ;
+  background-size: 150px;
+  grid-row: 1;
+}
+
+.score{
+
+    margin-left: 50%;
+    color:black;
+    margin-bottom: 50%;
+    
+}
