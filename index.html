@@ -1,0 +1,367 @@
+<html>
+
+<head>
+<style>
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px  50px 50px 50px 50px 50px  50px ;
+  grid-template-rows: 50px 50px 50px;
+  margin-bottom: 5%;
+
+}
+* {box-sizing: border-box;}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+  width: 43%;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+    padding: 1em;
+  color: #d9480f;
+}
+
+.wrapper_score  {
+  display: grid;
+  grid-template-columns: 50px 50px  50px 50px 50px 50px 50px 50px 50px 50px  ;
+  grid-template-rows: 44px 50px 50px;
+
+}
+* {box-sizing: border-box;}
+
+.wrapper_score {
+  border-radius: 5px;
+  width: 46%;
+}
+
+.wrapper_score > div {
+  border-radius: 5px;
+  color: #d9480f;
+}
+
+
+#r2 { 
+  grid-column: 1;
+  background-image:url("asset/img/r2.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#r3 { 
+  grid-column: 2;
+  background-image:url("asset/img/r3.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#r4 { 
+  grid-column: 3;
+  background-image:url("asset/img/r4.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#r5 { 
+  grid-column: 4;
+  background-image:url("asset/img/r5.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#r6 { 
+  grid-column: 5;
+  background-image:url("asset/img/r6.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#r7 { 
+  grid-column: 6 ;
+  background-image:url("asset/img/r7.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#r8 { 
+  grid-column: 7;
+  background-image:url("asset/img/r8.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+
+#r9 { 
+  grid-column: 8;
+  background-image:url("asset/img/r9.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+#r10 { 
+  grid-column: 9;
+  background-image:url("asset/img/r10.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+#r11 { 
+  grid-column: 10;
+  background-image:url("asset/img/r11.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+#r12 { 
+  grid-column: 11;
+  background-image:url("asset/img/r12.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+
+
+#r13 { 
+  grid-column: 12;
+  background-image:url("asset/img/r13.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#y2 { 
+  grid-column: 1;
+  background-image:url("asset/img/y2.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+#y3 { 
+  grid-column: 2;
+  background-image:url("asset/img/y3.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+#y4 { 
+  grid-column: 3;
+  background-image:url("asset/img/y4.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+#y5 { 
+  grid-column: 4;
+  background-image:url("asset/img/y5.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+#y6 { 
+  grid-column: 5;
+  background-image:url("asset/img/y6.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+#y7 { 
+  grid-column: 6 ;
+  background-image:url("asset/img/y7.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+#y8 { 
+  grid-column: 7;
+  background-image:url("asset/img/y8.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+
+
+#y9 { 
+  grid-column: 8;
+  background-image:url("asset/img/y9.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+
+#y10 { 
+  grid-column: 9;
+  background-image:url("asset/img/y10.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+
+#y11 { 
+  grid-column: 10;
+  background-image:url("asset/img/y11.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+
+#y12 { 
+  grid-column: 11;
+  background-image:url("asset/img/y12.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+
+
+
+#y13 { 
+  grid-column: 12;
+  background-image:url("asset/img/y13.png") ;
+  background-size: 50px;
+  grid-row: 2;
+}
+
+
+#score_red { 
+  grid-column: 1;
+  background-image:url("asset/img/score_red.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+
+
+
+#plus_red { 
+  background-image:url("asset/img/plus.png") ;
+  background-size: 50px;
+}
+
+#score_yellow { 
+  grid-column: 3;
+  background-image:url("asset/img/score_yellow.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#plus_yellow { 
+  background-image:url("asset/img/plus.png") ;
+  background-size: 50px;
+}
+
+#score_green { 
+  grid-column: 5;
+  background-image:url("asset/img/score_green.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#plus_green { 
+  background-image:url("asset/img/plus.png") ;
+  background-size: 50px;
+}
+
+#score_blue { 
+  grid-column: 7;
+  background-image:url("asset/img/score_blue.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+#less_blue { 
+  background-image:url("asset/img/less.png") ;
+  background-size: 50px;
+}
+
+#verful { 
+  grid-column: 9;
+  background-image:url("asset/img/verful.png") ;
+  background-size: 50px;
+  grid-row: 1;
+}
+
+
+#equal { 
+ 
+  background-image:url("asset/img/equal.png") ;
+  background-size: 50px;
+  
+}
+
+#score_total { 
+  grid-column: 11;
+  background-image:url("asset/img/score_total.png") ;
+  background-size: 150px;
+  grid-row: 1;
+}
+
+.score{
+
+    margin-left: 50%;
+    color:black;
+    margin-bottom: 50%;
+    
+}
+
+</style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="case" id="r2" alt="red_two"></div>
+        <div class="case" id="r3" alt="red_three"></div>
+        <div class="case" id="r4" alt="red_four"></div>
+        <div class="case" id="r5" alt="red_five"></div>
+        <div class="case" id="r6" alt="red_five"></div>
+        <div class="case" id="r7" alt="red_two"></div>
+        <div class="case" id="r8" alt="red_three"></div>
+        <div class="case" id="r9" alt="red_four"></div>
+        <div class="case" id="r10" alt="red_five"></div>
+        <div class="case" id="r11" alt="red_five"></div>
+        <div class="case" id="r12" alt="red_five"></div>
+        <div class="case" id="r13" alt="red_five"></div>
+
+        <div class="case" id="y2" alt="red_two"></div>
+        <div class="case" id="y3" alt="red_three"></div>
+        <div class="case" id="y4" alt="red_four"></div>
+        <div class="case" id="y5" alt="red_five"></div>
+        <div class="case" id="y6" alt="red_five"></div>
+        <div class="case" id="y7" alt="red_two"></div>
+        <div class="case" id="y8" alt="red_three"></div>
+        <div class="case" id="y9" alt="red_four"></div>
+        <div class="case" id="y10" alt="red_five"></div>
+        <div class="case" id="y11" alt="red_five"></div>
+        <div class="case" id="y12" alt="red_five"></div>
+        <div class="case" id="y13" alt="red_five"></div>
+
+      </div>
+
+
+      <div class="wrapper_score">
+        <div class="case" id="score_red" alt="red_two"><p class="score">0</p></div>
+        <div class="case" id="plus_red"  alt="red_three"></div>
+        <div class="case" id="score_yellow" alt="red_four"><p class="score">0</p></div>
+        <div id="plus_yellow" alt="red_five"></div>
+        <div class="case" id="score_green" alt="red_five"><p class="score">0</p></div>
+        <div id="plus_green" alt="red_five"></div>
+        <div  id="score_blue" alt="red_three"><p class="score">0</p></div>
+        <div id="less_blue" alt="red_four"></div>
+        <div class="case" id="verful" alt="red_five"><p class="score">0</p></div>
+        <div class="equal" id="equal" alt="red_five"></div>
+        <div  id="score_total" alt="red_five"><p class="score">0</p></div>
+
+      </div>
+</body>
+<script src="./js/case.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="./js/main.js"></script>
+</html>
