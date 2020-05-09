@@ -43,5 +43,5 @@ var assetURL=[
 for(var x=0;x<assetURL.length;x++)
 {
    let image = new Image();
-   image.src=assetURL[x];
+   image.src="/qwixx/"+assetURL[x];
 }
